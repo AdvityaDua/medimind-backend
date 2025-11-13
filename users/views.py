@@ -38,7 +38,7 @@ class UserLoginView(APIView):
                 serializer_data = serializer.data
                 serializer_data['access'] = str(refresh_token.access_token)
                 serializer_data['message'] = "Login successful"
-                response = Response({serializer_data})
+                response = Response(serializer_data)
                 response.set_cookie(
                     key='refresh_token',
                     value=str(refresh_token),
