@@ -1,0 +1,302 @@
+[
+  {
+    "model": "orders.medicine",
+    "pk": 1,
+    "fields": {
+      "name": "Paracetamol 650mg",
+      "generic_name": "Paracetamol",
+      "requires_prescription": false,
+      "category": "Analgesic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 2,
+    "fields": {
+      "name": "Dolo 650",
+      "generic_name": "Paracetamol",
+      "requires_prescription": false,
+      "category": "Analgesic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 3,
+    "fields": {
+      "name": "Calpol 500mg",
+      "generic_name": "Paracetamol",
+      "requires_prescription": false,
+      "category": "Analgesic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 4,
+    "fields": {
+      "name": "Ascoril Syrup",
+      "generic_name": "Dextromethorphan + Guaifenesin + Bromhexine",
+      "requires_prescription": false,
+      "category": "Cough Syrup"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 5,
+    "fields": {
+      "name": "Azithromycin 500mg",
+      "generic_name": "Azithromycin",
+      "requires_prescription": true,
+      "category": "Antibiotic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 6,
+    "fields": {
+      "name": "Amoxicillin 500mg",
+      "generic_name": "Amoxicillin",
+      "requires_prescription": true,
+      "category": "Antibiotic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 7,
+    "fields": {
+      "name": "Amoxiclav 625mg",
+      "generic_name": "Amoxicillin + Clavulanic Acid",
+      "requires_prescription": true,
+      "category": "Antibiotic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 8,
+    "fields": {
+      "name": "Cetirizine 10mg",
+      "generic_name": "Cetirizine",
+      "requires_prescription": false,
+      "category": "Antihistamine"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 9,
+    "fields": {
+      "name": "Allegra 120mg",
+      "generic_name": "Fexofenadine",
+      "requires_prescription": false,
+      "category": "Antihistamine"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 10,
+    "fields": {
+      "name": "Montelukast 10mg",
+      "generic_name": "Montelukast",
+      "requires_prescription": true,
+      "category": "Anti-allergic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 11,
+    "fields": {
+      "name": "Pantoprazole 40mg",
+      "generic_name": "Pantoprazole",
+      "requires_prescription": true,
+      "category": "Antacid"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 12,
+    "fields": {
+      "name": "Omeprazole 20mg",
+      "generic_name": "Omeprazole",
+      "requires_prescription": false,
+      "category": "Antacid"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 13,
+    "fields": {
+      "name": "ORS Solution",
+      "generic_name": "Oral Rehydration Salts",
+      "requires_prescription": false,
+      "category": "Electrolyte"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 14,
+    "fields": {
+      "name": "Vitamin C Tablets",
+      "generic_name": "Ascorbic Acid",
+      "requires_prescription": false,
+      "category": "Supplement"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 15,
+    "fields": {
+      "name": "Becosules Capsules",
+      "generic_name": "Vitamin B Complex",
+      "requires_prescription": false,
+      "category": "Supplement"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 16,
+    "fields": {
+      "name": "Aspirin 75mg",
+      "generic_name": "Acetylsalicylic Acid",
+      "requires_prescription": true,
+      "category": "Blood Thinner"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 17,
+    "fields": {
+      "name": "Atorvastatin 10mg",
+      "generic_name": "Atorvastatin",
+      "requires_prescription": true,
+      "category": "Cholesterol"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 18,
+    "fields": {
+      "name": "Metformin 500mg",
+      "generic_name": "Metformin",
+      "requires_prescription": true,
+      "category": "Diabetes"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 19,
+    "fields": {
+      "name": "Glimepiride 2mg",
+      "generic_name": "Glimepiride",
+      "requires_prescription": true,
+      "category": "Diabetes"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 20,
+    "fields": {
+      "name": "Sinarest",
+      "generic_name": "Chlorpheniramine + Paracetamol + Phenylephrine",
+      "requires_prescription": false,
+      "category": "Cold & Flu"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 21,
+    "fields": {
+      "name": "Crocine Advance",
+      "generic_name": "Paracetamol",
+      "requires_prescription": false,
+      "category": "Pain Relief"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 22,
+    "fields": {
+      "name": "Disprin",
+      "generic_name": "Aspirin",
+      "requires_prescription": false,
+      "category": "Pain Relief"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 23,
+    "fields": {
+      "name": "Ecosprin 75mg",
+      "generic_name": "Aspirin",
+      "requires_prescription": true,
+      "category": "Blood Thinner"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 24,
+    "fields": {
+      "name": "Dexamethasone 4mg",
+      "generic_name": "Dexamethasone",
+      "requires_prescription": true,
+      "category": "Steroid"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 25,
+    "fields": {
+      "name": "Ibuprofen 400mg",
+      "generic_name": "Ibuprofen",
+      "requires_prescription": false,
+      "category": "NSAID"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 26,
+    "fields": {
+      "name": "Meftal Spas",
+      "generic_name": "Mefenamic Acid + Dicyclomine",
+      "requires_prescription": false,
+      "category": "Antispasmodic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 27,
+    "fields": {
+      "name": "Cyclopam",
+      "generic_name": "Dicyclomine + Paracetamol",
+      "requires_prescription": false,
+      "category": "Antispasmodic"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 28,
+    "fields": {
+      "name": "Omez",
+      "generic_name": "Omeprazole",
+      "requires_prescription": false,
+      "category": "Antacid"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 29,
+    "fields": {
+      "name": "Rantac 150mg",
+      "generic_name": "Ranitidine",
+      "requires_prescription": false,
+      "category": "Antacid"
+    }
+  },
+  {
+    "model": "orders.medicine",
+    "pk": 30,
+    "fields": {
+      "name": "Zincovit",
+      "generic_name": "Multivitamin + Zinc",
+      "requires_prescription": false,
+      "category": "Supplement"
+    }
+  }
+]
