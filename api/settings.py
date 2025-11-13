@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'users',
 ]
 
-ALLOWED_CORS_ORIGINS = [
+CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://medimin-frontend.vercel.app",   
 ]
