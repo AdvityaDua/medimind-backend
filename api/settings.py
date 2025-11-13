@@ -63,7 +63,7 @@ REST_FRAMEWORK = {
     ),
 }
 
-ROOT_URLCONF = 'backend.urls'
+ROOT_URLCONF = 'api.urls'
 
 TEMPLATES = [
     {
@@ -80,7 +80,6 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 tmpPostgres = urlparse(os.getenv("DATABASE_URL"))
