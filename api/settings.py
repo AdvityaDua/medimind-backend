@@ -38,6 +38,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    "medimind-backend-jfb5.onrender.com",
     "http://localhost:5173",
     "https://medimin-frontend.vercel.app",   
 ]
