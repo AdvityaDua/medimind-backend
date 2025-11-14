@@ -1,6 +1,6 @@
 from django.db import models
 from users.models import User
-
+from inventory.models import Medicine
 
 
 class Order(models.Model):
@@ -43,17 +43,11 @@ class OrderItem(models.Model):
     # Optional: be ready for NLP structured data
     normalized_name = models.CharField(max_length=255, null=True, blank=True)
     medicine= models.ForeignKey(
-        "Medicine", null=True, blank=True, on_delete=models.SET_NULL
+        Medicine, null=True, blank=True, on_delete=models.SET_NULL
     )
 
     def __str__(self):
         return f"{self.product_name} x {self.quantity}"
-    
 
 
 
-class Medicine(models.Model):
-    name = models.CharField(max_length=255)
-    generic_name = models.CharField(max_length=255, null=True, blank=True)
-    requires_prescription = models.BooleanField(default=False)
-    category = models.CharField(max_length=100, null=True, blank=True)
