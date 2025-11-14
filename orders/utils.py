@@ -3,7 +3,7 @@ import json
 import google.generativeai as genai
 from datetime import datetime
 from difflib import get_close_matches
-from .models import Medicine
+from inventory.models import Medicine
 
 
 # Configure Gemini API

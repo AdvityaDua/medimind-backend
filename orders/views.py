@@ -6,14 +6,13 @@ import fitz
 import pytesseract
 from PIL import Image
 import io
-from rest_framework import viewsets, status
+from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
 
 from .models import Order
 from .serializers import OrderSerializer
 from .utils import parse_invoice_with_gemini
-
 
 
 

@@ -1,6 +1,7 @@
 from rest_framework import serializers
-from .models import Order, OrderItem, Medicine
+from .models import Order, OrderItem
 from .utils import match_medicine_by_name
+from inventory.models import Medicine
 
 
 class OrderItemSerializer(serializers.ModelSerializer):

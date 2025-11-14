@@ -35,10 +35,12 @@ INSTALLED_APPS = [
     'corsheaders',
     'users',
     'orders',
+    'inventory',
+    'sales',
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "medimind-backend-jfb5.onrender.com",
+    "https://medimind-backend-jfb5.onrender.com",
     "http://localhost:5173",
     "https://medimin-frontend.vercel.app",   
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 1,
     "fields": {
       "name": "Paracetamol 650mg",
@@ -10,7 +10,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 2,
     "fields": {
       "name": "Dolo 650",
@@ -20,7 +20,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 3,
     "fields": {
       "name": "Calpol 500mg",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 4,
     "fields": {
       "name": "Ascoril Syrup",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 5,
     "fields": {
       "name": "Azithromycin 500mg",
@@ -50,7 +50,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 6,
     "fields": {
       "name": "Amoxicillin 500mg",
@@ -60,7 +60,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 7,
     "fields": {
       "name": "Amoxiclav 625mg",
@@ -70,7 +70,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 8,
     "fields": {
       "name": "Cetirizine 10mg",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 9,
     "fields": {
       "name": "Allegra 120mg",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 10,
     "fields": {
       "name": "Montelukast 10mg",
@@ -100,7 +100,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 11,
     "fields": {
       "name": "Pantoprazole 40mg",
@@ -110,7 +110,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 12,
     "fields": {
       "name": "Omeprazole 20mg",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 13,
     "fields": {
       "name": "ORS Solution",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 14,
     "fields": {
       "name": "Vitamin C Tablets",
@@ -140,7 +140,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 15,
     "fields": {
       "name": "Becosules Capsules",
@@ -150,7 +150,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 16,
     "fields": {
       "name": "Aspirin 75mg",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 17,
     "fields": {
       "name": "Atorvastatin 10mg",
@@ -170,7 +170,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 18,
     "fields": {
       "name": "Metformin 500mg",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 19,
     "fields": {
       "name": "Glimepiride 2mg",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 20,
     "fields": {
       "name": "Sinarest",
@@ -200,7 +200,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 21,
     "fields": {
       "name": "Crocine Advance",
@@ -210,7 +210,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 22,
     "fields": {
       "name": "Disprin",
@@ -220,7 +220,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 23,
     "fields": {
       "name": "Ecosprin 75mg",
@@ -230,7 +230,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 24,
     "fields": {
       "name": "Dexamethasone 4mg",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 25,
     "fields": {
       "name": "Ibuprofen 400mg",
@@ -250,7 +250,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 26,
     "fields": {
       "name": "Meftal Spas",
@@ -260,7 +260,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 27,
     "fields": {
       "name": "Cyclopam",
@@ -270,7 +270,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 28,
     "fields": {
       "name": "Omez",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 29,
     "fields": {
       "name": "Rantac 150mg",
@@ -290,7 +290,7 @@
     }
   },
   {
-    "model": "orders.medicine",
+    "model": "inventory.medicine",
     "pk": 30,
     "fields": {
       "name": "Zincovit",
