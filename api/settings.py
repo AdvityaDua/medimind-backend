@@ -20,6 +20,8 @@ SECRET_KEY = 'django-insecure-@pt1b(#40ax141hkyw^q@=q%609!v^14*$d4fbitxbhwv&+8)j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CORS_ALLOW_CREDENTIALS = True
+
 ALLOWED_HOSTS = [
     "medimind-backend-jfb5.onrender.com",
     "localhost",
@@ -27,10 +29,6 @@ ALLOWED_HOSTS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-
-CSRF_TRUSTED_ORIGINS = [
-    "https://medimind-backend-jfb5.onrender.com"
-]
 
 # Application definition
 
@@ -47,10 +45,23 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://medimind-backend-jfb5.onrender.com",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
     "http://localhost:5173",
-    "https://medimin-frontend.vercel.app",   
+    "http://127.0.0.1:5173",
+    "https://your-frontend.vercel.app",
 ]
+
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://medimind-backend-jfb5.onrender.com",
+    "https://your-frontend.vercel.app",
+]
+
 
 AUTH_USER_MODEL = 'users.User'
 
