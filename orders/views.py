@@ -36,6 +36,7 @@ class OrderViewSet(viewsets.ModelViewSet):
             return Response({"error": "Invalid input_type"}, status=400)
 
         if input_type == "manual":
+            request.data['user'] = request.user.id
             serializer = self.get_serializer(data=request.data)
             serializer.is_valid(raise_exception=True)
             serializer.save(user=request.user, source="manual")

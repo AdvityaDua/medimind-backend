@@ -35,16 +35,14 @@ class UserLoginView(APIView):
             if user.check_password(password):
                 serializer = UserSerializer(user)
                 refresh_token = RefreshToken.for_user(user)
-                serializer_data = serializer.data
-                serializer_data['access'] = str(refresh_token.access_token)
-                serializer_data['message'] = "Login successful"
-                response = Response(serializer_data)
+                response = Response({"message": "Login successful", "user": serializer.data, "token": str(refresh_token.access_token)})
                 response.set_cookie(
                     key='refresh_token',
                     value=str(refresh_token),
                     httponly=True,
                     secure=True,
-                    samesite='Lax'
+                    samesite='None',
+                    max_age=7*24*60*60
                 )
                 
                 return response
@@ -67,10 +65,12 @@ class RefreshTokenView(APIView):
         refresh_token = request.COOKIES.get('refresh_token')
         if not refresh_token:
             return Response({"detail": "Refresh token not provided"}, status=400)
-        
+          
         try:
             token = RefreshToken(refresh_token)
+            user = User.objects.get(id=token['user_id'])
             access_token = str(token.access_token)
-            return Response({"access": access_token})
+            serializer = UserSerializer(user)
+            return Response({"token": access_token, "user": serializer.data})
         except Exception as e:
             return Response({"detail": "Invalid refresh token"}, status=400)

@@ -22,7 +22,7 @@ class SaleViewSet(viewsets.ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         input_type = request.data.get("input_type")
-
+        request.data['user'] = request.user.id
         if input_type not in ["manual", "pdf", "excel"]:
             return Response({"error": "Invalid input_type"}, status=400)
 
